@@ -1,0 +1,24 @@
+***SWAP CASE***
+#METHOD 1
+def swap_case(s):
+    return s.swap_case()
+if __name__ == '__main__':
+    s = input()
+    result = swap_case(s)
+    print(result)
+
+#method 2
+def swap_case(s):
+    a = list(s)
+    for i in range(len(a)):
+        if a[i] .islower():
+            a[i]=a[i].upper()
+        elif a[i] .isupper():
+            a[i]=a[i].lower()
+    return "".join(s)
+
+if __name__ == '__main__':
+    s = input()
+    result = swap_case(s)
+    print(result)
+    
