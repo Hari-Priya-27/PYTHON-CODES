@@ -15,7 +15,7 @@ def swap_case(s):
             a[i]=a[i].upper()
         elif a[i] .isupper():
             a[i]=a[i].lower()
-    return "".join(s)
+    return "".join(a)
 
 if __name__ == '__main__':
     s = input()
