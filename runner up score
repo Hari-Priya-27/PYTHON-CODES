@@ -1,0 +1,10 @@
+    n = int(input())
+    a= map(int, input().split())
+    l = []
+    for i in a:
+        l.append(i)
+    mx = max(l)
+    while mx in l:  
+        l.remove(mx)
+    print(max(l))
+
